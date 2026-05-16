@@ -1,7 +1,7 @@
 [
   {
     "question": "Frage: Hier wird ein Array deklariert: int[] zahlen = new int[5]; Schreibe den Code, um dem dritten Element den Wert 7 zuzuweisen.",
-    "answer": "zahlen[2] = 7",
+    "answer": "zahlen[2] = 7;",
     "explanation": "Arrays beginnen in Java immer bei Index 0. Das dritte Element befindet sich deshalb an Position 2."
   },
   {
