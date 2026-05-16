@@ -1,0 +1,112 @@
+[
+  {
+    "question": "Frage: Hier wird ein Array deklariert: int[] zahlen = new int[5]; Schreibe den Code, um dem dritten Element den Wert 7 zuzuweisen.",
+    "answer": "zahlen[2] = 7",
+    "explanation": "Arrays beginnen in Java immer bei Index 0. Das dritte Element befindet sich deshalb an Position 2."
+  },
+  {
+    "question": "Schreibe die Import-Zeile, um den Scanner in Java zu verwenden.",
+    "answer": "import java.util.Scanner;",
+    "explanation": "Scanner ist eine Klasse aus der Standardbibliothek. Sie liegt im Paket java.util. Ohne Import kann Java sie nicht finden."
+  },
+  {
+    "question": "Schreibe die Zeile, um einen Scanner für Tastatureingaben zu erstellen.",
+    "answer": "Scanner scanner = new Scanner(System.in);",
+    "explanation": "Scanner verbindet das Programm mit der Tastatur. System.in ist der Eingabestrom."
+  },
+  {
+    "question": "Schreibe die Import-Zeile für die Verwendung einer ArrayList.",
+    "answer": "import java.util.ArrayList;",
+    "explanation": "ArrayList gehört ebenfalls zum Paket java.util. Sie wird für dynamische Listen verwendet, deren Größe veränderbar ist."
+  },
+  {
+    "question": "Schreibe die erste Zeile einer do-while-Schleife in Java.",
+    "answer": "do {",
+    "explanation": "Die do-while-Schleife ist fußgesteuert. Der Block wird mindestens einmal ausgeführt. Die Bedingung steht erst am Ende."
+  },
+  {
+    "question": "Schreibe den Kopf einer while-Schleife mit einer beliebigen Bedingung.",
+    "answer": "while (bedingung) {",
+    "explanation": "Die while-Schleife ist kopfgesteuert. Die Bedingung wird vor jedem Durchlauf geprüft. Deshalb kann sie auch 0-mal ausgeführt werden."
+  },
+  {
+    "question": "Schreibe den Kopf einer klassischen for-Schleife von 0 bis 4.",
+    "answer": "for (int i = 0; i < 5; i++) {",
+    "explanation": "Die for-Schleife besteht aus drei Teilen: Initialisierung, Bedingung und Schrittweite. Sie eignet sich besonders bei einer festen Anzahl an Durchläufen."
+  },
+  {
+    "question": "Schreibe eine for-each-Schleife für ein Array zahlen.",
+    "answer": "for (int zahl : zahlen) {",
+    "explanation": "Die for-each-Schleife läuft automatisch über alle Elemente eines Arrays oder einer ArrayList. Ein eigener Index ist nicht nötig."
+  },
+  {
+    "question": "Dieser Code ist bereits gegeben: System.out.print(\"Gib eine Zahl ein: \"); Schreibe die Zeile, um eine ganze Zahl vom Scanner einzulesen und in der Variable zahl zu speichern.",
+    "answer": "int zahl = scanner.nextInt();",
+    "explanation": "nextInt() liest Integer-Werte ein. Der eingegebene Wert wird direkt in der Variable zahl gespeichert."
+  },
+  {
+    "question": "Schreibe die Zeile, um einen Text vom Scanner einzulesen und in name zu speichern.",
+    "answer": "String name = scanner.nextLine();",
+    "explanation": "nextLine() liest eine komplette Zeile ein und eignet sich deshalb besonders für Texteingaben."
+  },
+  {
+    "question": "Deklariere eine Variable für eine ganze Zahl, die später mit Scanner gefüllt wird.",
+    "answer": "int zahl;",
+    "explanation": "Hier wird nur Speicherplatz für die Variable erstellt. Die Variable besitzt noch keinen konkreten Wert."
+  },
+  {
+    "question": "Mit welcher Code-Zeile wird eine ArrayList in Java deklariert (nur angelegt, ohne direkt Elemente hinzuzufügen)?",
+    "answer": "ArrayList<String> liste;",
+    "explanation": "Hier wird nur die Variable angelegt. Es existiert noch keine echte ArrayList im Speicher. Das ist reine Deklaration."
+  },
+  {
+    "question": "Mit welcher Code-Zeile wird eine ArrayList in Java erstellt und gleichzeitig initialisiert?",
+    "answer": "ArrayList<String> liste = new ArrayList<>();",
+    "explanation": "ArrayList<String> liste ist die Deklaration. new ArrayList<>() erstellt das Objekt im Speicher. Danach ist die Liste direkt nutzbar."
+  },
+  {
+    "question": "Welche ArrayList-Methode fügt ein neues Element (z. B. \"Hallo\") in die ArrayList namens liste ein?",
+    "answer": "liste.add(\"Hallo\");",
+    "explanation": "liste ist der Name des ArrayList-Objekts. add() ist die Methode zum Hinzufügen eines Elements. Das neue Element wird am Ende der Liste eingefügt."
+  },
+{
+    "question": "Welche ArrayList-Methode entfernt ein bestimmtes Element (z. B. \"Hallo\") aus der ArrayList namens liste?",
+    "answer": "liste.remove(\"Hallo\");",
+    "explanation": "liste ist das ArrayList-Objekt. remove() entfernt das erste passende Element aus der Liste. Die Größe der Liste wird dabei automatisch angepasst."
+  },
+  {
+    "question": "Welche ArrayList-Methode greift auf das Element am Index 0 in der ArrayList namens liste zu?",
+    "answer": "liste.get(0);",
+    "explanation": "liste ist das ArrayList-Objekt. get(0) greift auf das erste Element der Liste zu. Arrays und ArrayLists beginnen in Java immer bei Index 0."
+  },
+  {
+    "question": "Welche ArrayList-Methode gibt die Anzahl der gespeicherten Elemente in der ArrayList namens liste zurück?",
+    "answer": "liste.size();",
+    "explanation": "size() liefert die aktuelle Anzahl aller Elemente in der ArrayList. Die Methode wird häufig in Schleifen und Bedingungen verwendet."
+  },
+  {
+    "question": "Welche ArrayList-Methode prüft, ob ein bestimmtes Element (z. B. \"Hallo\") in der ArrayList namens liste enthalten ist?",
+    "answer": "liste.contains(\"Hallo\");",
+    "explanation": "contains() überprüft, ob ein bestimmtes Element in der ArrayList existiert. Das Ergebnis ist true oder false."
+  },
+  {
+    "question": "Welches ist im folgendem Code die Initialisierung der Zählvariable: int i = 0; do { System.out.println(\"Durchlauf: \" + i); i++; } while (i < 5);",
+    "answer": "int i = 0;",
+    "explanation": "Die Initialisierung legt den Startwert der Zählvariable fest. Ohne diesen Startwert weiß die Schleife nicht, wo sie beginnen soll."
+  },
+  {
+    "question": "Wo im gegebenem Code ist die Bedingung? int i = 0; do { System.out.println(\"Durchlauf: \" + i); i++; } while (i < 5);",
+    "answer": "while (i < 5);",
+    "explanation": "Die Bedingung ist ein Boolean-Ausdruck. Ergibt sie true, läuft die Schleife weiter. Ergibt sie false, wird die Schleife beendet."
+  },
+  {
+    "question": "Welche Schleife wird verwendet, wenn eine Eingabe mindestens einmal erfolgen muss?",
+    "answer": "do-while",
+    "explanation": "Die do-while-Schleife führt ihren Block immer mindestens einmal aus, da die Bedingung erst am Ende geprüft wird."
+  },
+  {
+    "question": "Welches ist der Name der Variable? int i = 0; i++;",
+    "answer": "i",
+    "explanation": "i ist der Variablenname. Die Variable speichert hier einen ganzzahligen Wert und wird durch i++ um 1 erhöht."
+  }
+]
