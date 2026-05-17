@@ -13,7 +13,7 @@
     "question": "Schreibe die Zeile, um einen Scanner für Tastatureingaben zu erstellen.",
     "answer": [
 "Scanner scanner = new Scanner(System.in);",
-scanner sc = new Scanner(System.in);"
+"Scanner sc = new Scanner(System.in);"
 ],
     "explanation": "Scanner verbindet das Programm mit der Tastatur. System.in ist der Eingabestrom."
   },
