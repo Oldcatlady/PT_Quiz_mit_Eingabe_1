@@ -11,7 +11,10 @@
   },
   {
     "question": "Schreibe die Zeile, um einen Scanner für Tastatureingaben zu erstellen.",
-    "answer": "Scanner scanner = new Scanner(System.in);",
+    "answer": [
+"Scanner scanner = new Scanner(System.in);",
+scanner sc = new Scanner(System.in);"
+],
     "explanation": "Scanner verbindet das Programm mit der Tastatur. System.in ist der Eingabestrom."
   },
   {
@@ -41,28 +44,34 @@
   },
   {
     "question": "Dieser Code ist bereits gegeben: System.out.print(\"Gib eine Zahl ein: \"); Schreibe die Zeile, um eine ganze Zahl vom Scanner einzulesen und in der Variable zahl zu speichern.",
-    "answer": "int zahl = scanner.nextInt();",
+    "answer": [
+"int zahl = scanner.nextInt();",
+"int zahl = sc.nextInt();"
+],
     "explanation": "nextInt() liest Integer-Werte ein. Der eingegebene Wert wird direkt in der Variable zahl gespeichert."
   },
   {
-    "question": "Schreibe die Zeile, um einen Text vom Scanner einzulesen und in name zu speichern.",
-    "answer": "String name = scanner.nextLine();",
+    "question": "Schreibe die Zeile Code, um einen Text vom Scanner einzulesen und in der Variable name zu speichern.",
+    "answer": [
+"String name = scanner.nextLine();",
+"String name = sc.nextLine();"
+],
     "explanation": "nextLine() liest eine komplette Zeile ein und eignet sich deshalb besonders für Texteingaben."
   },
   {
-    "question": "Deklariere eine Variable für eine ganze Zahl, die später mit Scanner gefüllt wird.",
+    "question": "Deklariere eine Variable für eine Ganzzahl mit dem Namen zahl, die später mit Scanner gefüllt wird.",
     "answer": "int zahl;",
     "explanation": "Hier wird nur Speicherplatz für die Variable erstellt. Die Variable besitzt noch keinen konkreten Wert."
   },
   {
-    "question": "Mit welcher Code-Zeile wird eine ArrayList in Java deklariert (nur angelegt, ohne direkt Elemente hinzuzufügen)?",
+    "question": "Mit welcher Code-Zeile wird eine ArrayList für eine Zeichenkette in Java deklariert (nur angelegt, ohne direkt Elemente hinzuzufügen)?",
     "answer": "ArrayList<String> liste;",
     "explanation": "Hier wird nur die Variable angelegt. Es existiert noch keine echte ArrayList im Speicher. Das ist reine Deklaration."
   },
   {
-    "question": "Mit welcher Code-Zeile wird eine ArrayList in Java erstellt und gleichzeitig initialisiert?",
-    "answer": "ArrayList<String> liste = new ArrayList<>();",
-    "explanation": "ArrayList<String> liste ist die Deklaration. new ArrayList<>() erstellt das Objekt im Speicher. Danach ist die Liste direkt nutzbar."
+    "question": "Mit welcher Code-Zeile wird eine ArrayList für ganze Zahlen mit dem Namen Liste in Java erstellt und gleichzeitig initialisiert?",
+    "answer": "ArrayList<Integer> liste = new ArrayList<>();",
+    "explanation": "ArrayList<Integer> liste ist die Deklaration, new ArrayList<>() erstellt das Objekt im Speicher. Danach ist die Liste direkt nutzbar."
   },
   {
     "question": "Welche ArrayList-Methode fügt ein neues Element (z. B. \"Hallo\") in die ArrayList namens liste ein?",
