@@ -25,7 +25,7 @@
     "explanation": "Die do-while-Schleife ist fußgesteuert. Der Block wird mindestens einmal ausgeführt. Die Bedingung steht erst am Ende."
   },
   {
-    "question": "Schreibe den Kopf einer while-Schleife mit einer beliebigen Bedingung.",
+    "question": "Schreibe den Kopf einer while-Schleife. Füge an der Position der Bedienung das Wort 'Bedingung' ein.",
     "answer": "while (bedingung) {",
     "explanation": "Die while-Schleife ist kopfgesteuert. Die Bedingung wird vor jedem Durchlauf geprüft. Deshalb kann sie auch 0-mal ausgeführt werden."
   },
