@@ -43,12 +43,14 @@ function checkInput() {
   const user = normalize(input);
 
   const correctAnswerDisplay = q.answer;
-  const correctAnswerCheck = normalize(q.answer);
+  const answers = Array.isArray(q.answer) ? q.answer : [q.answer];
+
+const isCorrect = answers.some(a => normalize(a) === user);
 
   answered = true;
   checked = true;
 
-  if (user === correctAnswerCheck) {
+  if (isCorrect) {
     correct++;
     showFeedback(true, q.explanation, correctAnswerDisplay);
   } else {
